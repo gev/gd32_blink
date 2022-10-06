@@ -1,0 +1,764 @@
+Dependencies for Project 'blink', Target 'blink': (DO NOT MODIFY !)
+CompilerVersion: 6180000::V6.18::ARMCLANG
+F (.\main.c)(0x633EDC78)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/main.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_adc.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_adc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_cec.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_cec.o -MD)
+F (RTE/Device/GD32F330K8/gd32f3x0_cmp.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_cmp.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_crc.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_crc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_ctc.c)(0x61CD6D72)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_ctc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_dac.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_dac.o -MD)
+F (RTE/Device/GD32F330K8/gd32f3x0_dbg.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_dbg.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_dma.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_dma.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_exti.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_exti.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_fmc.c)(0x61D6C520)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_fmc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_fwdgt.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_fwdgt.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_gpio.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_gpio.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_i2c.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_i2c.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_misc.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_misc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_pmu.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_pmu.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_rcu.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_rcu.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_rtc.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_rtc.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_spi.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_spi.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_syscfg.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_syscfg.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_timer.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_timer.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_tsi.c)(0x61D6C524)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_tsi.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+F (RTE/Device/GD32F330K8/gd32f3x0_usart.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_usart.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/gd32f3x0_wwdgt.c)(0x61CD6D74)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/gd32f3x0_wwdgt.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
+F (RTE/Device/GD32F330K8/startup_gd32f3x0.s)(0x61CD6D74)(--target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -masm=auto -c-gdwarf-4 -Wa,armasm,--pd,"__EVAL SETA 1"-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-Wa,armasm,--pd,"__UVISION_VERSION SETA 537" -Wa,armasm,--pd,"_RTE_ SETA 1" -Wa,armasm,--pd,"GD32F330 SETA 1" -Wa,armasm,--pd,"_RTE_ SETA 1"-o ./objects/startup_gd32f3x0.o)
+F (RTE/Device/GD32F330K8/system_gd32f3x0.c)(0x61CD6E7A)(-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -ffunction-sections -Weverything -Wno-packed -Wno-reserved-id-macro -Wno-unused-macros -Wno-documentation-unknown-command -Wno-documentation -Wno-license-management -Wno-parentheses-equality -Wno-reserved-identifier-I./RTE/_blink-IC:/Users/kofma/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Firmware/Peripherals/inc-IC:/Users/kofma/AppData/Local/Arm/Packs/GigaDevice/GD32F3x0_DFP/3.0.2/Device/Include-D__UVISION_VERSION="537" -D_RTE_ -DGD32F330 -D_RTE_-o ./objects/system_gd32f3x0.o -MD)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm4.h)(0x626F912E)
+I (C:\Keil_v5\ARM\ARMCLANG\include\stdint.h)(0x6252A728)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armclang.h)(0x626F912E)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\system_gd32f3x0.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Include\gd32f3x0_libopt.h)(0x5CE69404)
+I (RTE\_blink\RTE_Components.h)(0x633ECF37)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_adc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cec.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_ctc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_crc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_cmp.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dac.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dbg.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_dma.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_exti.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fmc.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_gpio.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_syscfg.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_i2c.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_fwdgt.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_pmu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rcu.h)(0x61CD6D74)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_rtc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_spi.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_timer.h)(0x61D6C524)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_usart.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_wwdgt.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_misc.h)(0x61CD6D72)
+I (C:\Users\kofma\AppData\Local\Arm\Packs\GigaDevice\GD32F3x0_DFP\3.0.2\Device\Firmware\Peripherals\inc\gd32f3x0_tsi.h)(0x61D6C524)
